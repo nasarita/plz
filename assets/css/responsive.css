@@ -1,0 +1,509 @@
+
+
+@media only screen and (max-width: 1199px) {
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+@media only screen and (max-width: 991px)  {
+
+	.info-title.top-title {
+		display: none;
+	}
+
+	.partner-all-info {
+		padding: 30px 15px
+	}
+
+	.part-titl {
+		display: block;
+	    font-size: 16px;
+	    font-weight: bold;
+	    margin-bottom: 12px;
+	}
+
+	.partner-info-content {
+		padding: 0 ;
+		margin-left: -25px;
+		margin-right: -25px;
+	}
+
+	.si-ti-in {
+	     text-align: center;
+	    height: 90px;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+	    -webkit-box-align: start;
+	        -ms-flex-align: start;
+	            align-items: flex-start;
+	    -webkit-box-pack: justify;
+	        -ms-flex-pack: justify;
+	            justify-content: space-between;
+	    padding: 20px 0px;
+	    -ms-flex-preferred-size: 25% !important;
+	        flex-basis: 25% !important;
+	}
+
+	.info-title.bottom {
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	}
+
+
+
+}
+
+
+/* Medium Devices, Tablet, Mobile */    
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.partner-list {
+	    padding: 30px 50px;
+	}
+
+	.single-input {
+	    -ms-flex-preferred-size: 48%;
+	        flex-basis: 48%;
+	}
+
+	.partner-tabs .nav-pills .nav-link {
+		padding: 15px 30px;
+	}
+
+	ul#sortable li {
+		-ms-flex-preferred-size: 33.333%;
+		    flex-basis: 33.333%;
+	}
+
+}
+    
+@media only screen and (max-width: 767px)  {
+	.partner-title h2 {
+		font-size: 30px;
+	}
+
+	.check-list {
+		padding: 10px 30px;
+	}
+
+	.si-ti-in {
+		-ms-flex-preferred-size: 33% !important;
+		    flex-basis: 33% !important;
+	}
+	
+}
+    
+    
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	.partner-list {
+	    padding: 30px 30px;
+	}
+
+	.single-partner img {
+	    height: 100px;
+	}
+
+	.single-input {
+	    -ms-flex-preferred-size: 100%;
+	        flex-basis: 100%;
+	}
+
+	.partner-tabs .nav-pills .nav-link {
+	    padding: 10px 15px;
+    	font-size: 16px;
+	}
+
+	ul#sortable li {
+		-ms-flex-preferred-size: 50%;
+		    flex-basis: 50%;
+	}
+
+}
+    
+@media only screen and (max-width: 575px)  {
+	.si-ti-in {
+		-ms-flex-preferred-size: 50% !important;
+		    flex-basis: 50% !important;
+	}
+
+	#edit-partner-info .partner-info-content {
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+	}
+
+	ul#sortable li {
+		-ms-flex-preferred-size: 50%;
+		    flex-basis: 50%;
+	}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    
+
+	.partner-list {
+	    padding: 30px 30px;
+	}
+
+	.single-partner img {
+	    height: 100px;
+	}
+
+	.single-input {
+	    -ms-flex-preferred-size: 100%;
+	        flex-basis: 100%;
+	}
+
+	.partner-title h2 {
+		font-size: 35px;
+	}
+
+	.partner-title.partnership h2 {
+		font-size: 30px;
+	}
+
+	.single-detail {
+		font-size: 16px;
+	}
+		
+	.bac-top {
+		right: 20px;
+	}
+	
+	.footer-menu li {
+	    margin-bottom: 15px;
+	}
+
+
+	.partner-tabs .nav-pills .nav-link {
+	    padding: 10px 15px;
+    	font-size: 16px;
+    	margin-bottom: 10px;
+	}
+
+}
+    
+@media only screen and  (max-width: 479px) {
+	.save-change-btn button {
+		margin-bottom: 30px
+	}
+
+	.single-approve-box {
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+	    -webkit-box-align: start;
+	        -ms-flex-align: start;
+	            align-items: flex-start;
+	}
+
+	.org-area {
+	    margin-bottom: 15px;
+	}
+
+	.single-approve-box> div {
+	    width: 100%;
+	}
+
+	.approve-btn ul li {
+	    -webkit-box-flex: 1;
+	        -ms-flex-positive: 1;
+	            flex-grow: 1;
+	}
+
+	.partner-info-content {
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+	}
+
+	.single-info-conent {
+	    margin-bottom: 15px;
+	}
+	
+	.partner-tabs .nav-pills .nav-link {
+	    padding: 10px 15px;
+    	font-size: 16px;
+    	margin-bottom: 10px;
+	}
+	
+	ul#sortable li {
+		-ms-flex-preferred-size: 100%;
+		    flex-basis: 100%;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+	}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 479px) {
+
+	.partner-list {
+	    padding: 30px 30px;
+	}
+
+	.single-partner img {
+	    height: 100px;
+	}
+
+	.single-input {
+	    -ms-flex-preferred-size: 100%;
+	        flex-basis: 100%;
+	}
+
+	.partner-title h2 {
+		font-size: 30px;
+	}
+
+	.partner-title.partnership h2 {
+		font-size: 26px;
+	}
+
+	.single-detail {
+		font-size: 16px;
+	}
+
+	.single-partner {
+	    -ms-flex-preferred-size: 50%;
+	        flex-basis: 50%;
+	}
+
+	.single-partner img {
+	    height: 85px;
+	}
+
+	.organi-logo.max-width img {
+	    display: block;
+	    width: 100%;
+	    height: auto;
+	}
+	
+	.submit-btn button {
+		width: 150px;
+	    height: 40px;
+	    font-size: 16px;
+	}
+
+	.bac-top {
+	    right: 20px;
+	}
+
+	.footer-menu li {
+	    margin-bottom: 15px;
+	}
+
+	.brand-icon {
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	    margin-top: 15px;
+	}
+
+
+}
+    
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    
+	.partner-list {
+	    padding: 30px 30px;
+	}
+
+	.single-partner img {
+	    height: 100px;
+	}
+
+	.single-input {
+	    -ms-flex-preferred-size: 100%;
+	        flex-basis: 100%;
+	}
+
+	.partner-title h2 {
+		font-size: 30px;
+	}
+
+	.partner-title.partnership h2 {
+		font-size: 26px;
+	}
+
+	.single-detail {
+		font-size: 16px;
+	}
+
+	.single-partner {
+	    -ms-flex-preferred-size: 50%;
+	        flex-basis: 50%;
+	}
+
+	.single-partner img {
+	    height: 85px;
+	}
+
+	.organi-logo.max-width img {
+	    display: block;
+	    width: 100%;
+	    height: auto;
+	}
+	
+	.submit-btn button {
+		width: 150px;
+	    height: 40px;
+	    font-size: 16px;
+	}
+
+	.single-organi {
+	    padding: 30px;
+	}
+
+	.single-input, .text-area {
+	    padding: 10px 0 10px 15px;
+	}
+
+	.text-area textarea, .single-input input {
+	    font-size: 14px;
+	}
+
+	.single-input select {
+	    font-size: 14px;
+	}
+
+	span.select-arrow {
+	    top: 12px;
+	}
+
+	span.logo-palce {
+	    font-size: 14px;
+	}
+
+	.single-input label {
+	    font-size: 14px;
+	    width: 120px;
+	}
+
+	.bac-top {
+	    right: 20px;
+	}
+
+	.footer-menu li {
+	    margin-bottom: 15px;
+	}
+
+	.brand-icon {
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	    margin-top: 15px;
+	}
+
+
+}
+      
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+    
+      
+	.partner-list {
+	    padding: 30px 30px;
+	}
+
+	.single-partner img {
+	    height: 100px;
+	}
+
+	.single-input {
+	    -ms-flex-preferred-size: 100%;
+	        flex-basis: 100%;
+	}
+
+	.partner-title h2 {
+		font-size: 30px;
+	}
+
+	.partner-title.partnership h2 {
+		font-size: 26px;
+	}
+
+	.single-detail {
+		font-size: 16px;
+	}
+
+	.single-partner {
+	    -ms-flex-preferred-size: 50%;
+	        flex-basis: 50%;
+	}
+
+	.single-partner img {
+	    height: 85px;
+	}
+
+	.organi-logo.max-width img {
+	    display: block;
+	    width: 100%;
+	    height: auto;
+	}
+	
+	.submit-btn button {
+		width: 150px;
+	    height: 40px;
+	    font-size: 16px;
+	}
+
+	.single-organi {
+	    padding: 30px;
+	}
+
+	.single-input, .text-area {
+	    padding: 10px 0 10px 15px;
+	}
+
+	.text-area textarea, .single-input input {
+	    font-size: 14px;
+	}
+
+	.single-input select {
+	    font-size: 14px;
+	}
+
+	span.select-arrow {
+	    top: 12px;
+	}
+
+	span.logo-palce {
+	    font-size: 14px;
+	}
+
+	.single-input label {
+	    font-size: 14px;
+	    width: 120px;
+	}
+
+	.bac-top {
+	    right: 20px;
+	}
+
+	.footer-menu li {
+	    margin-bottom: 15px;
+	}
+
+	.brand-icon {
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	    margin-top: 15px;
+	}
+
+
+}
+   

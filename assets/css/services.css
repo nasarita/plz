@@ -1,0 +1,23 @@
+.colums {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.rowie:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colun {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.rowi:after {
+  content: "";
+  display: table;
+  clear: both;
+}
